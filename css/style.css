@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: 	#403d4e;
+    margin: 0;
+}
+
+a {
+    color: 	#403d4e;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title-inner {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.sub-title {
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.title-photo img {
+    max-width: 420px;
+    max-height: 420px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.title-photo:before, .title-photo:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 170px;
+    height: 2px;
+    background-color: #403d4e;
+    top: 50%;
+}
+
+.title-photo:before {
+    left: 15vw;
+}
+
+.title-photo:after {
+    right: 15vw;
+}
+
+.content-inner {
+    margin: 0 auto;
+    max-width: 920px;
+}
+
+.content-title {
+    font-size: 34px;
+    margin-bottom: 18px;
+}
+
+.content-text{ 
+    margin: 0 auto;
+    max-width: 590px;
+}
+
+.content-text p {
+    margin-bottom: 32px;
+}
+
+.content-text p:nth-of-type(even) {
+    text-align: right;
+    padding-right: 16px;
+    border-right: 2px solid #403d4e;
+}
+
+.content-text p:nth-of-type(odd) {
+    padding-left: 16px;
+    border-left: 2px solid #403d4e;
+}
+
+
+.content-links {
+    margin: 0 auto;
+    max-width: 590px;
+}
+
+.content-links {
+    margin-bottom: 50px;
+    padding: 16px;
+    border: 2px dotted #403d4e;
+    text-align: center;
+}
+
+.content-list {
+    margin-top: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-list-img {
+    width: 50px;
+    height: 50px;
+}
+
+.content-list__link {
+    display: flex;
+    align-items: center;
+}
+
+.content-list__link span {
+    margin-left: 8px;
+}
